@@ -1,0 +1,33 @@
+[History]
+1=#P0#=mb	#P1#=clone	#P2#=工程1/ArrayList/clone	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019100556	#P7#=0	#P8#=-1	.
+2=#P0#=mb	#P1#=BestFreeMem	#P2#=工程1/MainForm/BestFreeMem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019101809	#P7#=0	#P8#=6	.
+3=#P0#=mb	#P1#=stopr	#P2#=工程1/MainForm/stopr	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019095156	#P7#=0	#P8#=0	.
+4=#P0#=mb	#P1#=freeMem	#P2#=工程1/MainForm/freeMem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019102049	#P7#=0	#P8#=12	.
+5=#P0#=mb	#P1#=insert	#P2#=工程1/ArrayList/insert	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019102742	#P7#=0	#P8#=8	.
+6=#P0#=mb	#P1#=addValue	#P2#=工程1/ArrayList/addValue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019103000	#P7#=0	#P8#=10	.
+7=#P0#=mb	#P1#=setValue	#P2#=工程1/ArrayList/setValue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101018165306	#P7#=0	#P8#=-2	.
+8=#P0#=mb	#P1#=FirstFreeMem	#P2#=工程1/MainForm/FirstFreeMem	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019101247	#P7#=0	#P8#=4	.
+9=#P0#=mb	#P1#=reset	#P2#=工程1/MainForm/reset	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019103201	#P7#=0	#P8#=11	.
+10=#P0#=mb	#P1#=Form_Load	#P2#=工程1/MainForm/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20101019103640	#P7#=0	#P8#=8	.
+11=#P0#=mb	#P1#=part	#P2#=工程1/ArrayList/part	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019100615	#P7#=0	#P8#=28	.
+12=#P0#=mb	#P1#=sort	#P2#=工程1/ArrayList/sort	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101018154908	#P7#=0	#P8#=-1	.
+13=#P0#=mb	#P1#=quick	#P2#=工程1/ArrayList/quick	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101018154126	#P7#=0	#P8#=4	.
+14=#P0#=mb	#P1#=toString	#P2#=工程1/ArrayList/toString	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019100617	#P7#=0	#P8#=-1	.
+15=#P0#=mb	#P1#=resize	#P2#=工程1/ArrayList/resize	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101018153252	#P7#=0	#P8#=6	.
+16=#P0#=mb	#P1#=delValue	#P2#=工程1/ArrayList/delValue	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101018153111	#P7#=0	#P8#=0	.
+17=#P0#=mb	#P1#=getIndex	#P2#=工程1/ArrayList/getIndex	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101018153057	#P7#=0	#P8#=-1	.
+18=#P0#=mb	#P1#=checkType	#P2#=工程1/ArrayList/checkType	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101018153019	#P7#=0	#P8#=6	.
+19=#P0#=mb	#P1#=DataType	#P2#=工程1/ArrayList/DataType [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20101018152904	#P7#=0	#P8#=4	.
+20=#P0#=mb	#P1#=Class_Initialize	#P2#=工程1/ArrayList/Class_Initialize	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20101018152812	#P7#=0	#P8#=4	.
+21=#P0#=mb	#P1#=DataType	#P2#=工程1/ArrayList/DataType [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20101018152722	#P7#=0	#P8#=1	.
+22=#P0#=mb	#P1#=Increase	#P2#=工程1/ArrayList/Increase [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20101019102609	#P7#=0	#P8#=0	.
+23=#P0#=mb	#P1#=Count	#P2#=工程1/ArrayList/Count [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20101018152605	#P7#=0	#P8#=0	.
+24=#P0#=mb	#P1#=List	#P2#=工程1/ArrayList/List [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20101018152237	#P7#=0	#P8#=0	.
+25=#P0#=mb	#P1#=btnNext_Click	#P2#=工程1/MainForm/btnNext_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20101019101333	#P7#=0	#P8#=24	.
+26=#P0#=mb	#P1#=clear	#P2#=工程1/ArrayList/clear	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101018143620	#P7#=0	#P8#=2	.
+27=#P0#=mb	#P1#=Increase	#P2#=工程1/ArrayList/Increase [Get]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20101018143236	#P7#=0	#P8#=4	.
+28=#P0#=mb	#P1#=btnReset_Click	#P2#=工程1/MainForm/btnReset_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20101019095319	#P7#=0	#P8#=7	.
+29=#P0#=mb	#P1#=List	#P2#=工程1/ArrayList/List [Set]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20101018142858	#P7#=0	#P8#=-1	.
+30=#P0#=mb	#P1#=List	#P2#=工程1/ArrayList/List [Let]	#P3#=	#P4#=	#P5#=MembPropertyPrivate	#P6#=20101018140026	#P7#=0	#P8#=-1	.
+31=#P0#=mb	#P1#=start	#P2#=工程1/MainForm/start	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019095138	#P7#=0	#P8#=-2	.
+32=#P0#=mb	#P1#=drawMemory	#P2#=工程1/MainForm/drawMemory	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20101019103601	#P7#=0	#P8#=3	.

@@ -1,0 +1,6 @@
+[History]
+1=#P0#=mb	#P1#=btn_down_Click	#P2#=Project1/frm_Main/btn_down_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20091120150754	#P7#=0	#P8#=8	.
+2=#P0#=mb	#P1#=btn_up_Click	#P2#=Project1/frm_Main/btn_up_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20091120150746	#P7#=0	#P8#=1	.
+3=#P0#=mb	#P1#=btn_clear_Click	#P2#=Project1/frm_Main/btn_clear_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20091120144805	#P7#=0	#P8#=1	.
+4=#P0#=mb	#P1#=syncGen	#P2#=Project1/frm_Main/syncGen	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20091120145550	#P7#=0	#P8#=13	.
+5=#P0#=mb	#P1#=unsyncGen	#P2#=Project1/frm_Main/unsyncGen	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20091120145623	#P7#=0	#P8#=14	.

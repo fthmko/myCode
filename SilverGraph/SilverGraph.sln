@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverGraph", "SilverGraph\SilverGraph.csproj", "{AFCABE82-E181-419D-B81E-CCD1D2C10F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverGraph.Web", "SilverGraph.Web\SilverGraph.Web.csproj", "{32B2EA1F-29B4-402C-9FEC-97BC2FC10E9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFCABE82-E181-419D-B81E-CCD1D2C10F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCABE82-E181-419D-B81E-CCD1D2C10F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCABE82-E181-419D-B81E-CCD1D2C10F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCABE82-E181-419D-B81E-CCD1D2C10F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B2EA1F-29B4-402C-9FEC-97BC2FC10E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B2EA1F-29B4-402C-9FEC-97BC2FC10E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B2EA1F-29B4-402C-9FEC-97BC2FC10E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B2EA1F-29B4-402C-9FEC-97BC2FC10E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

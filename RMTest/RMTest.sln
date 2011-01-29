@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridLib", "GridLib\GridLib.csproj", "{8CC13F59-C001-4263-BAB9-2D7A72348C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputeServer", "ComputeServer\ComputeServer.csproj", "{5A3E4D29-9F4F-4511-A2CA-9A98E3E01936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridNode", "GridNode\GridNode.csproj", "{49E82D02-2F1C-4F28-8AA7-C602708D6357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumCompute", "NumCompute\NumCompute.csproj", "{5DFDA2C5-F4AF-4AE4-A4DB-D2B7A9F49647}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ComputeServer\\ComputeServer.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = ComputeServer\\
+		SccProjectUniqueName2 = GridLib\\GridLib.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = GridLib\\
+		SccProjectUniqueName3 = GridNode\\GridNode.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = GridNode\\
+		SccProjectUniqueName4 = NumCompute\\NumCompute.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = NumCompute\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CC13F59-C001-4263-BAB9-2D7A72348C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC13F59-C001-4263-BAB9-2D7A72348C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC13F59-C001-4263-BAB9-2D7A72348C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC13F59-C001-4263-BAB9-2D7A72348C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A3E4D29-9F4F-4511-A2CA-9A98E3E01936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3E4D29-9F4F-4511-A2CA-9A98E3E01936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3E4D29-9F4F-4511-A2CA-9A98E3E01936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3E4D29-9F4F-4511-A2CA-9A98E3E01936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E82D02-2F1C-4F28-8AA7-C602708D6357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E82D02-2F1C-4F28-8AA7-C602708D6357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E82D02-2F1C-4F28-8AA7-C602708D6357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E82D02-2F1C-4F28-8AA7-C602708D6357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DFDA2C5-F4AF-4AE4-A4DB-D2B7A9F49647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFDA2C5-F4AF-4AE4-A4DB-D2B7A9F49647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFDA2C5-F4AF-4AE4-A4DB-D2B7A9F49647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFDA2C5-F4AF-4AE4-A4DB-D2B7A9F49647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

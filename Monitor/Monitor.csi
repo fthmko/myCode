@@ -1,0 +1,6 @@
+[History]
+1=#P0#=mb	#P1#=FindDir	#P2#=xMonitor/VBINI/FindDir	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20100318131858	#P7#=0	#P8#=0	.
+2=#P0#=mb	#P1#=Form_Load	#P2#=xMonitor/Monitor/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100318102018	#P7#=0	#P8#=16	.
+3=#P0#=mb	#P1#=GetIniS	#P2#=xMonitor/VBINI/GetIniS	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20100318131750	#P7#=0	#P8#=-1	.
+4=#P0#=mb	#P1#=cmdRefresh_Click	#P2#=xMonitor/Monitor/cmdRefresh_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100318100330	#P7#=0	#P8#=20	.
+5=#P0#=mb	#P1#=Timer1_Timer	#P2#=xMonitor/Monitor/Timer1_Timer	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20100318131927	#P7#=0	#P8#=16	.

@@ -1,0 +1,8 @@
+行 53: 控件 TreeView1 的类 MSComctlLib.TreeView 不是一个已加载的控件类。
+行 59: 属性名 _ExtentX 在 TreeView1 中是无效的。
+行 60: 属性名 _ExtentY 在 TreeView1 中是无效的。
+行 61: 属性名 _Version 在 TreeView1 中是无效的。
+行 62: 属性名 LabelEdit 在 TreeView1 中是无效的。
+行 63: 属性名 LineStyle 在 TreeView1 中是无效的。
+行 64: 属性名 Sorted 在 TreeView1 中是无效的。
+行 65: 属性名 Style 在 TreeView1 中是无效的。

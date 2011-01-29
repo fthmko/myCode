@@ -1,0 +1,18 @@
+/*
+ * @(#) {全文件名}
+ * Copyright (c) 2009-2010 大连远东计算机系统有限公司
+ * All rights reserved.
+ *      Project: 远东公司内部网
+ *    SubSystem: {子系统}
+ */
+package com.yds.{包名}.bean;
+
+/**
+ * {程序名}Bean
+ * 
+ * @author 远东){用户名}
+ * @version 1.00 {日期}
+ */
+public class {文件名} {
+
+}

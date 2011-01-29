@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MMangerDataSet_jwbj" targetNamespace="http://tempuri.org/MMangerDataSet_jwbj.xsd" xmlns:mstns="http://tempuri.org/MMangerDataSet_jwbj.xsd" xmlns="http://tempuri.org/MMangerDataSet_jwbj.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\MManger.accdb;Persist Security Info=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="MManger.accdb" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="加班记录TableAdapter" GeneratorDataComponentClassName="加班记录TableAdapter" Name="加班记录" UserDataComponentName="加班记录TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MManger.accdb" DbObjectName="加班记录" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT 工号, 加班类型, 加班时间, 日期 FROM 加班记录</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="工号" DataSetColumn="工号" />
+              <Mapping SourceColumn="加班类型" DataSetColumn="加班类型" />
+              <Mapping SourceColumn="加班时间" DataSetColumn="加班时间" />
+              <Mapping SourceColumn="日期" DataSetColumn="日期" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MMangerDataSet_jwbj" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="MMangerDataSet_jwbj" msprop:Generator_UserDSName="MMangerDataSet_jwbj" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="加班记录" msprop:Generator_UserTableName="加班记录" msprop:Generator_RowDeletedName="加班记录RowDeleted" msprop:Generator_TableClassName="加班记录DataTable" msprop:Generator_RowChangedName="加班记录RowChanged" msprop:Generator_RowClassName="加班记录Row" msprop:Generator_RowChangingName="加班记录RowChanging" msprop:Generator_RowEvArgName="加班记录RowChangeEvent" msprop:Generator_RowEvHandlerName="加班记录RowChangeEventHandler" msprop:Generator_TablePropName="加班记录" msprop:Generator_TableVarName="table加班记录" msprop:Generator_RowDeletingName="加班记录RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="工号" msprop:Generator_UserColumnName="工号" msprop:Generator_ColumnPropNameInRow="工号" msprop:Generator_ColumnVarNameInTable="column工号" msprop:Generator_ColumnPropNameInTable="工号Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="加班类型" msprop:Generator_UserColumnName="加班类型" msprop:Generator_ColumnPropNameInRow="加班类型" msprop:Generator_ColumnVarNameInTable="column加班类型" msprop:Generator_ColumnPropNameInTable="加班类型Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="加班时间" msprop:Generator_UserColumnName="加班时间" msprop:Generator_ColumnPropNameInRow="加班时间" msprop:Generator_ColumnVarNameInTable="column加班时间" msprop:Generator_ColumnPropNameInTable="加班时间Column" type="xs:short" minOccurs="0" />
+              <xs:element name="日期" msprop:Generator_UserColumnName="日期" msprop:Generator_ColumnPropNameInRow="日期" msprop:Generator_ColumnVarNameInTable="column日期" msprop:Generator_ColumnPropNameInTable="日期Column" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

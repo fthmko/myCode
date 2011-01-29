@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nprotect", "nprotect\nprotect.csproj", "{740BB9EF-5E8D-4BBF-8996-4FEC7C36341B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{740BB9EF-5E8D-4BBF-8996-4FEC7C36341B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740BB9EF-5E8D-4BBF-8996-4FEC7C36341B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740BB9EF-5E8D-4BBF-8996-4FEC7C36341B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740BB9EF-5E8D-4BBF-8996-4FEC7C36341B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

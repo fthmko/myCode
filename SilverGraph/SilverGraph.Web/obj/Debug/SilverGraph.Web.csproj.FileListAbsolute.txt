@@ -1,0 +1,5 @@
+D:\=FTHMKO=\=PROJECT=\SilverGraph\SilverGraph.Web\bin\SilverGraph.Web.dll
+D:\=FTHMKO=\=PROJECT=\SilverGraph\SilverGraph.Web\bin\SilverGraph.Web.pdb
+D:\=FTHMKO=\=PROJECT=\SilverGraph\SilverGraph.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\=FTHMKO=\=PROJECT=\SilverGraph\SilverGraph.Web\obj\Debug\SilverGraph.Web.dll
+D:\=FTHMKO=\=PROJECT=\SilverGraph\SilverGraph.Web\obj\Debug\SilverGraph.Web.pdb

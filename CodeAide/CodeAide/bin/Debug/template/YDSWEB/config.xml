@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE config SYSTEM "../config.dtd">
+<config name="YDSWEB">
+  <desc>为YDSWEB项目自动生成部分文件和基本内容，减少工作量</desc>
+  <params>
+    <param name="程序名" value="某程序" />
+    <param name="程序描述" value="某某程序"/>
+    <param name="子系统" value="子系统名"/>
+    <param name="包名" value="最终包名"/>
+    <param name="用户名" value="你的名字" />
+  </params>
+  <maps>
+    <map type="新建" name="action">
+      <src>action</src>
+      <dest>{路径}\action\{#程序名}Action.java</dest>
+    </map>
+    <map type="新建" name="dao">
+      <src>dao</src>
+      <dest>{路径}\dao\{#程序名}Dao.java</dest>
+    </map>
+    <map type="新建" name="daoxml">
+      <src>daoxml</src>
+      <dest>{路径}\dao\{#程序名}Dao.xml</dest>
+    </map>
+    <map type="新建" name="daoimpl">
+      <src>daoimpl</src>
+      <dest>{路径}\dao\impl\{#程序名}DaoImpl.java</dest>
+    </map>
+    <map type="新建" name="service">
+      <src>service</src>
+      <dest>{路径}\service\{#程序名}Service.java</dest>
+    </map>
+    <map type="新建" name="serviceimpl">
+      <src>serviceimpl</src>
+      <dest>{路径}\service\impl\{#程序名}ServiceImpl.java</dest>
+    </map>
+    <map type="新建" name="bean">
+      <src>bean</src>
+      <dest>{路径}\bean\{#程序名}Info.java</dest>
+    </map>
+    <map type="合并" name="struts-config">
+      <src>strutsconfig</src>
+      <dest>{路径}\struts-{包名}.xml</dest>
+      <position><![CDATA[</package>]]></position>
+    </map>
+  </maps>
+  <replaces>
+    <replace type="文本" name="action">
+      <src>abcd</src>
+      <dest>1234</dest>
+    </replace>
+  </replaces>
+</config>

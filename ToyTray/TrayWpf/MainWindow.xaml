@@ -1,0 +1,10 @@
+﻿<MyNamespace:GlassWindow x:Class="TrayWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MyNamespace="clr-namespace:Microsoft.WindowsAPICodePack.Shell;assembly=Microsoft.WindowsAPICodePack.Shell"
+        Title="MainWindow" Height="350" Width="300" Loaded="Window_Loaded" Icon="/TrayWpf;component/Images/1532_Flag_Blue.ico" ResizeMode="NoResize" Closing="GlassWindow_Closing">
+    <Grid x:Name="layout">
+        <Button Content="隐藏" Height="26" HorizontalAlignment="Left" Margin="213,285,0,0" Name="btnHide" VerticalAlignment="Top" Width="65" Click="btnHide_Click" FontFamily="Microsoft YaHei" />
+        <ListBox Height="250" HorizontalAlignment="Center" Margin="0,27,0,0" Name="lstConfig" VerticalAlignment="Top" Width="278" SelectionMode="Multiple" SelectionChanged="lstConfig_SelectionChanged" DataContext="{Binding}" />
+    </Grid>
+</MyNamespace:GlassWindow>

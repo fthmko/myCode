@@ -1,0 +1,40 @@
+﻿/*
+ * @(#) {#全文件名}
+ * Copyright (c) 2009-2010 大连远东计算机系统有限公司
+ * All rights reserved.
+ *      Project: 远东公司内部网
+ *    SubSystem: {子系统}
+ */
+package com.yds.{包名}.action;
+
+import java.util.List;
+
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
+
+import com.yds.base.action.AbstractBaseAction;
+import com.yds.{包名}.service.{#程序名}Service;
+
+/**
+ * {程序描述}Action
+ * 
+ * @author 远东){用户名}
+ * @version 1.00 {日期}
+ */
+@Scope(BeanDefinition.SCOPE_PROTOTYPE)
+@Controller("{%程序名}Action")
+public class {#程序名}Action extends AbstractBaseAction {
+	
+	private {#程序名}Service {%程序名}Service;
+	private List<{#程序名}Info> {%程序名}InfoList;
+	
+	public String execute(){
+		return SUCCESS;
+	}
+
+	public void set{#程序名}Service({#程序名}Service {%程序名}Service) {
+		this.{%程序名}Service = {%程序名}Service;
+	}
+
+}

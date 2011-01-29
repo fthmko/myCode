@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D453D9B-0C64-4FCC-923A-C9972C56BEC2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MManager</RootNamespace>
+    <AssemblyName>MManager</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>3.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>2.0.3.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_iuqnjilu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="a_iuqnjilu.Designer.cs">
+      <DependentUpon>a_iuqnjilu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_jdjnjilu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="a_jdjnjilu.Designer.cs">
+      <DependentUpon>a_jdjnjilu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_jwbjjilu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="a_jwbjjilu.Designer.cs">
+      <DependentUpon>a_jwbjjilu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="a_yrgsgrli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="a_yrgsgrli.Designer.cs">
+      <DependentUpon>a_yrgsgrli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common.Designer.cs">
+      <DependentUpon>common.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cpwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cpwd.Designer.cs">
+      <DependentUpon>cpwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="c_iuqn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_iuqn.Designer.cs">
+      <DependentUpon>c_iuqn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="c_jdli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_jdli.Designer.cs">
+      <DependentUpon>c_jdli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="c_jwbj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_jwbj.Designer.cs">
+      <DependentUpon>c_jwbj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fcdb.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MMangerDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MMangerDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MMangerDataSet_iuqn.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MMangerDataSet_iuqn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MMangerDataSet_jdjn.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MMangerDataSet_jdjn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MMangerDataSet_jwbj.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MMangerDataSet_jwbj.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_iuqnjilu.resx">
+      <DependentUpon>a_iuqnjilu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_jdjnjilu.resx">
+      <DependentUpon>a_jdjnjilu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_jwbjjilu.resx">
+      <DependentUpon>a_jwbjjilu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="a_yrgsgrli.resx">
+      <DependentUpon>a_yrgsgrli.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common.resx">
+      <DependentUpon>common.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cpwd.resx">
+      <DependentUpon>cpwd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_iuqn.resx">
+      <DependentUpon>c_iuqn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_jdli.resx">
+      <DependentUpon>c_jdli.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_jwbj.resx">
+      <DependentUpon>c_jwbj.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c_yrgsxnxi.resx">
+      <DependentUpon>c_yrgsxnxi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ytgszi.resx">
+      <DependentUpon>ytgszi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="MMangerDataSet1.xsc">
+      <DependentUpon>MMangerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MMangerDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MMangerDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MMangerDataSet1.xss">
+      <DependentUpon>MMangerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MMangerDataSet_iuqn.xsc">
+      <DependentUpon>MMangerDataSet_iuqn.xsd</DependentUpon>
+    </None>
+    <None Include="MMangerDataSet_iuqn.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MMangerDataSet_iuqn.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MMangerDataSet_iuqn.xss">
+      <DependentUpon>MMangerDataSet_iuqn.xsd</DependentUpon>
+    </None>
+    <None Include="MMangerDataSet_jdjn.xsc">
+      <DependentUpon>MMangerDataSet_jdjn.xsd</DependentUpon>
+    </None>
+    <None Include="MMangerDataSet_jdjn.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MMangerDataSet_jdjn.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MMangerDataSet_jdjn.xss">
+      <DependentUpon>MMangerDataSet_jdjn.xsd</DependentUpon>
+    </None>
+    <None Include="MMangerDataSet_jwbj.xsc">
+      <DependentUpon>MMangerDataSet_jwbj.xsd</DependentUpon>
+    </None>
+    <None Include="MMangerDataSet_jwbj.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MMangerDataSet_jwbj.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MMangerDataSet_jwbj.xss">
+      <DependentUpon>MMangerDataSet_jwbj.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="c_yrgsxnxi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="c_yrgsxnxi.Designer.cs">
+      <DependentUpon>c_yrgsxnxi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ytgszi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ytgszi.Designer.cs">
+      <DependentUpon>ytgszi.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3.ico" />
+    <Content Include="MManger.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,7 @@
+C:\Documents and Settings\zhangzheng\デスクトップ\Down\AIbzdjc\Cuidl\bin\Debug\Cuidl.exe
+C:\Documents and Settings\zhangzheng\デスクトップ\Down\AIbzdjc\Cuidl\bin\Debug\Cuidl.pdb
+C:\Documents and Settings\zhangzheng\デスクトップ\Down\AIbzdjc\Cuidl\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\zhangzheng\デスクトップ\Down\AIbzdjc\Cuidl\obj\Debug\Cuidl.Properties.Resources.resources
+C:\Documents and Settings\zhangzheng\デスクトップ\Down\AIbzdjc\Cuidl\obj\Debug\Cuidl.csproj.GenerateResource.Cache
+C:\Documents and Settings\zhangzheng\デスクトップ\Down\AIbzdjc\Cuidl\obj\Debug\Cuidl.exe
+C:\Documents and Settings\zhangzheng\デスクトップ\Down\AIbzdjc\Cuidl\obj\Debug\Cuidl.pdb

@@ -1,0 +1,3 @@
+$FNAME = "_COPYTMP_KILLME_FORCE_.txt";
+saveas $FNAME, utf8;
+runex "CopyTool.exe " + directory + "\\" + $FNAME;

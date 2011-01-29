@@ -1,0 +1,15 @@
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\kAbone.exe
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\kAbone.xml
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\kAbone.pdb
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\bin\Debug\kAbone.exe
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\bin\Debug\kAbone.pdb
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\bin\Debug\kAbone.xml
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\ResolveAssemblyReference.cache
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\kAbone.kabone.resources
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\kAbone.Resources.resources
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\kAbone.srch.resources
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\GenerateResource.read.1.tlog
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\GenerateResource.write.1.tlog
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\bin\Debug\kAbone.exe.config
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\=FTHMKO=\=PROJECT=\fthmko-pkg\fxAbone\kAbone\obj\Debug\GenerateResource-ResGen.write.1.tlog

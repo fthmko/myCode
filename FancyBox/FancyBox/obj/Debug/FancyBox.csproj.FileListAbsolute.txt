@@ -1,0 +1,39 @@
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\FancyBox\bin\Debug\FancyBox.exe
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\FancyBox\bin\Debug\FancyBox.pdb
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\FancyBox\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\FancyBox\obj\Debug\FancyBox.Form1.resources
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\FancyBox\obj\Debug\FancyBox.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\FancyBox\obj\Debug\FancyBox.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\FancyBox\obj\Debug\FancyBox.exe
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\FancyBox\obj\Debug\FancyBox.pdb
+f:\vs2005\cs\FancyBox\FancyBox\obj\Debug\FancyBox.exe
+f:\vs2005\cs\FancyBox\FancyBox\obj\Debug\FancyBox.pdb
+F:\VS2005\cs\FancyBox\FancyBox\bin\Debug\FancyBox.exe
+F:\VS2005\cs\FancyBox\FancyBox\bin\Debug\FancyBox.pdb
+F:\VS2005\cs\FancyBox\FancyBox\obj\Debug\ResolveAssemblyReference.cache
+F:\VS2005\cs\FancyBox\FancyBox\obj\Debug\FancyBox.frmMain.resources
+F:\VS2005\cs\FancyBox\FancyBox\obj\Debug\FancyBox.Properties.Resources.resources
+F:\VS2005\cs\FancyBox\FancyBox\obj\Debug\FancyBox.csproj.GenerateResource.Cache
+F:\VS2005\cs\FancyBox\FancyBox\bin\Debug\FancyBox.exe.manifest
+F:\VS2005\cs\FancyBox\FancyBox\bin\Debug\FancyBox.application
+F:\VS2005\cs\FancyBox\FancyBox\obj\Debug\FancyBox.TrustInfo.xml
+F:\VS2005\cs\FancyBox\FancyBox\obj\Debug\FancyBox.exe.manifest
+F:\VS2005\cs\FancyBox\FancyBox\obj\Debug\FancyBox.application
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\FancyBox.exe
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\ResolveAssemblyReference.cache
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\FancyBox.frmMain.resources
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\FancyBox.Properties.Resources.resources
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\FancyBox.csproj.GenerateResource.Cache
+F:\VS2008\cs\FancyBox\FancyBox\bin\Debug\FancyBox.exe.manifest
+F:\VS2008\cs\FancyBox\FancyBox\bin\Debug\FancyBox.application
+F:\VS2008\cs\FancyBox\FancyBox\bin\Debug\FancyBox.exe
+F:\VS2008\cs\FancyBox\FancyBox\bin\Debug\FancyBox.pdb
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\FancyBox.TrustInfo.xml
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\FancyBox.exe.manifest
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\FancyBox.application
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\FancyBox.pdb
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\Interop.SHDocVw.dll
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\AxInterop.SHDocVw.dll
+F:\VS2008\cs\FancyBox\FancyBox\obj\Debug\FancyBox.csproj.ResolveComReference.cache
+F:\VS2008\cs\FancyBox\FancyBox\bin\Debug\Interop.SHDocVw.dll
+F:\VS2008\cs\FancyBox\FancyBox\bin\Debug\AxInterop.SHDocVw.dll

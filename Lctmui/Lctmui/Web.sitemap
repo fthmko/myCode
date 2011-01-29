@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="找回密码"  description="">
+        <siteMapNode url="vkhv.aspx" title="信息验证"  description="" />
+        <siteMapNode url="reset.aspx" title="密码重设"  description="" />
+    </siteMapNode>
+</siteMap>

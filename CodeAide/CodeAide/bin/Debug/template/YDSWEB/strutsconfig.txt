@@ -1,0 +1,7 @@
+
+		<!-- {程序描述} START -->
+		<action name="【你的Action名】" method="【action中的方法名】" class="{程序名}Action">
+			<result name="success">{程序名}.jsp</result>
+		</action>
+		<!-- {程序描述} END -->
+	

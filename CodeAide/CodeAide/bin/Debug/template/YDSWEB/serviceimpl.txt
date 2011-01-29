@@ -1,0 +1,40 @@
+﻿/*
+ * @(#) {#全文件名}
+ * Copyright (c) 2009-2010 大连远东计算机系统有限公司
+ * All rights reserved.
+ *      Project: 远东公司内部网
+ *    SubSystem: {子系统}
+ */
+package com.yds.{包名}.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.yds.base.service.AbstractBaseService;
+import com.yds.{包名}.service.{#程序名}Service;
+import com.yds.{包名}.bean.{#程序名}Info;
+import com.yds.{包名}.dao.{#程序名}Dao;
+
+/**
+ * @see com.yds.{包名}.service.{#程序名}Service
+ *
+ */
+@Service("{%程序名}Service")
+public class {#程序名}ServiceImpl extends AbstractBaseService implements
+		{#程序名}Service {
+
+	private {#程序名}Dao {%程序名}Dao;
+	
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public List<{#程序名}Info> get{#程序名}InfoList() {
+		return {%程序名}Dao.get{#程序名}InfoList();
+	}
+
+	public void set{#程序名}Dao({#程序名}Dao {%程序名}Dao) {
+		this.{%程序名}Dao = {%程序名}Dao;
+	}
+}

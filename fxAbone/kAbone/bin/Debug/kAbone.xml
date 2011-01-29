@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+kAbone
+</name>
+</assembly>
+<members>
+<member name="P:kAbone.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:kAbone.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:kAbone.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:kAbone.CfgMgr`1.#ctor(System.String,kAbone.CfgMgrFormats)">
+	<summary>
+ 创建实例
+ </summary>
+	<param name="fileName">配置文件存放位置</param>
+	<param name="format">保存格式</param>
+	<remarks></remarks>
+</member><member name="P:kAbone.CfgMgr`1.Config">
+	<summary>
+ 获取或设置配置对象
+ </summary>
+	<value>配置对象</value>
+	<returns>配置对象</returns>
+	<remarks></remarks>
+</member><member name="P:kAbone.CfgMgr`1.FileName">
+	<summary>
+ 获取文件名
+ </summary>
+	<value></value>
+	<returns>文件名</returns>
+	<remarks></remarks>
+</member><member name="P:kAbone.CfgMgr`1.Format">
+	<summary>
+ 获取保存格式
+ </summary>
+	<value></value>
+	<returns>保存格式</returns>
+	<remarks></remarks>
+</member><member name="M:kAbone.CfgMgr`1.Load">
+	<summary>
+ 读取配置
+ </summary>
+	<returns>成功或失败</returns>
+	<remarks></remarks>
+</member><member name="M:kAbone.CfgMgr`1.Save">
+	<summary>
+ 保存配置
+ </summary>
+	<returns>成功或失败</returns>
+	<remarks></remarks>
+</member><member name="T:kAbone.CfgMgr`1">
+	<summary>
+ 配置管理器
+ </summary>
+	<typeparam name="T">配置类型，必须Serializable</typeparam>
+	<remarks></remarks>
+</member><member name="T:kAbone.CfgMgrFormats">
+	<summary>
+ 保存类型
+ </summary>
+	<remarks></remarks>
+</member><member name="M:kAbone.FReg.SetAutoRun(System.String,System.String,System.Boolean)">
+	<summary>
+ 添加自启动项
+ </summary>
+	<param name="appName">名称</param>
+	<param name="appPath">路径</param>
+	<param name="blnAllUser">是否所有用户</param>
+	<returns>成功或失败</returns>
+	<remarks></remarks>
+</member><member name="M:kAbone.FReg.IfAutoRun(System.String,System.String,System.Boolean)">
+	<summary>
+ 是否自启动
+ </summary>
+	<param name="appName">名称</param>
+	<param name="appPath">路径</param>
+	<param name="blnAllUser">是否所有用户</param>
+	<returns>是否</returns>
+	<remarks></remarks>
+</member><member name="M:kAbone.FReg.DelAutoRun(System.String,System.Boolean)">
+	<summary>
+ 删除自启动项
+ </summary>
+	<param name="appName">名称</param>
+	<param name="blnAllUser">是否所有用户</param>
+	<returns>成功或失败</returns>
+	<remarks></remarks>
+</member><member name="T:kAbone.FReg">
+	<summary>
+ 自启动管理
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

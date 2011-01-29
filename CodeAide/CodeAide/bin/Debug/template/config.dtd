@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT config (desc, params?, maps, replaces?)>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT params (param+)>
+<!ELEMENT param EMPTY>
+<!ELEMENT maps (map+)>
+<!ELEMENT map (src, dest, position?)>
+<!ELEMENT src (#PCDATA)>
+<!ELEMENT dest (#PCDATA)>
+<!ELEMENT replaces (replace+)>
+<!ELEMENT replace (src, dest)>
+<!ELEMENT position (#PCDATA)>
+
+<!ATTLIST config name ID #REQUIRED>
+<!ATTLIST param name ID #REQUIRED value CDATA #REQUIRED>
+<!ATTLIST map name ID #REQUIRED type (新建|合并) #REQUIRED>
+<!ATTLIST replace type (文本|正则) #REQUIRED name IDREF #REQUIRED>
