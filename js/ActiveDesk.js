@@ -1,14 +1,14 @@
 /*
  * @(#)ActiveDesk.js
- * Copyright (c) 2009-2010 大连远东计算机系统有限公司
+ * Copyright (c) 2009-2010 YDS
  * All rights reserved.
- *      Project: 远东公司内部网
+ *      Project: YDSWEB
  *    SubSystem: 活动桌面
  */
 /**
  * @fileoverview 个人活动桌面JavaScript.
  *
- * @author 远东)zhangzheng
+ * @author YD)zz
  * @version 1.0 2010/08/12
  */
 var shadow;

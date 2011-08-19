@@ -7,14 +7,14 @@ using System.Text;
 
 namespace FBTrans
 {
-	[Table(Name = "message")]
-	public class MessageBean{
-		private string _lang;
-		private string _version;
-		private string _translator;
-		private string _encode;
-		private string _xmls;
-		[Column(IsPrimaryKey = true, Storage = "_lang")]
+    [Table(Name = "message")]
+    public class MessageBean
+    {
+        private string _lang;
+        private string _version;
+        private string _translator;
+        private string _encode;
+        [Column(IsPrimaryKey = true, Storage = "_lang")]
         public string Lang
         {
             get { return _lang; }
@@ -38,32 +38,36 @@ namespace FBTrans
             get { return _encode; }
             set { _encode = value; }
         }
-        [Column(Storage = "_xmls")]
-        public string Xmlns
+        public string Display
         {
-            get { return _xmls; }
-            set { _xmls = value; }
+        	get { return Lang + "_" + Version;}
         }
-		List<TagBean> Contents{
-			get;set;
-		}
-		public MessageBean(){
-			Contents = new List<TagBean>();
-		}
-	}
-	
-	[Table(Name = "tag")]
-	public class TagBean{
-		private int _key;
-		private int _seq;
-		private string _tagname;
-		private string _propname;
-		private string _propvalue;
-		private string _textvalue;
-		private int _parent;
-		private string _msgkey;
-		[Column(IsPrimaryKey = true, Storage = "_key")]
-        public int Key
+        public List<TagBean> Contents
+        {
+            get;
+            set;
+        }
+        public MessageBean()
+        {
+            Contents = new List<TagBean>();
+        }
+        public string GenHead()
+        {
+            return "<?xml version=\"1.0\" encoding=\"" + Encode + "\"?>";
+        }
+    }
+
+    [Table(Name = "tag")]
+    public class TagBean
+    {
+        private string _key;
+        private int _seq;
+        private string _name;
+        private string _value;
+        private string _parent;
+        private int _type;
+        [Column(IsPrimaryKey = true, Storage = "_key")]
+        public string Key
         {
             get { return _key; }
             set { _key = value; }
@@ -74,48 +78,142 @@ namespace FBTrans
             get { return _seq; }
             set { _seq = value; }
         }
-        [Column(Storage = "_tagname")]
-        public string Tagname
+        [Column(Storage = "_name")]
+        public string Name
         {
-            get { return _tagname; }
-            set { _tagname = value; }
+            get { return _name; }
+            set { _name = value; }
         }
-        [Column(Storage = "_propname")]
-        public string Propname
+        [Column(Storage = "_value")]
+        public string Value
         {
-            get { return _propname; }
-            set { _propname = value; }
-        }
-        [Column(Storage = "_propvalue")]
-        public string Propvalue
-        {
-            get { return _propvalue; }
-            set { _propvalue = value; }
-        }
-        [Column(Storage = "_textvalue")]
-        public string Textvalue
-        {
-            get { return _textvalue; }
-            set { _textvalue = value; }
+            get { return _value; }
+            set { _value = value; }
         }
         [Column(Storage = "_parent")]
-        public int Parent
+        public string Parent
         {
             get { return _parent; }
             set { _parent = value; }
         }
-        [Column(Storage = "_msgkey")]
-        public string Msgkey
+        [Column(Storage = "_type")]
+        public int Type
         {
-            get { return _msgkey; }
-            set { _msgkey = value; }
+            get { return _type; }
+            set { _type = value; }
+        }
+        public List<TagBean> Subtags
+        {
+            get;
+            set;
         }
 
-		List<TagBean> Subtags{
-			get;set;
-		}
-		public TagBean(){
-			Subtags = new List<TagBean>();
-		}
-	}
+        public List<TagBean> Attributes
+        {
+            get;
+            set;
+        }
+
+        public TagBean()
+        {
+            Subtags = new List<TagBean>();
+            Attributes = new List<TagBean>();
+            Seq = -1;
+        }
+
+        public TagBean(string key, int seq, string name, string value, string parent, int type)
+        {
+            this.Subtags = new List<TagBean>();
+            this.Attributes = new List<TagBean>();
+            this.Type = type;
+            this.Key = key;
+            this.Seq = seq;
+            this.Name = name;
+            this.Value = value ?? "";
+            this.Parent = parent;
+        }
+
+        public string GenHead()
+        {
+            if (Type == TagType.ROOT)
+            {
+                return "<?xml " + Value + "?>\n";
+            }
+            string head = "";
+            head = "<" + Name;
+            foreach (TagBean attr in Attributes)
+            {
+                head += " " + attr.Name + "=\"" + attr.Value + "\"";
+            }
+            head += ">";
+
+            return head;
+        }
+
+        public string GenXml()
+        {
+            return GenXml("");
+        }
+        public string GenXml(string idt)
+        {
+            string INDENT = "  ";
+            string thisidt = idt + INDENT;
+            if (Name == "#comment")
+            {
+                string con = Value;
+                if (con.Contains('\n'))
+                {
+                    string[] lns = Value.Split('\n');
+                    for (int i = 0; i < lns.Length; i++)
+                    {
+                        lns[i] = (lns[i].Trim().Length > 0 ? idt : "") + lns[i];
+                    }
+                    con = String.Join("\n", lns).Trim(' ');
+                    if (con.EndsWith("\n")) con += idt;
+                }
+                return idt + "<!--" + con + "-->";
+            }
+            string head = GenHead();
+            if (Subtags.Count == 0)
+            {
+                if (Value == null || Value.Length == 0)
+                {
+                    return idt + head.Replace(">", "/>");
+                }
+                else
+                {
+                    return idt + head + Value + "</" + Name + ">";
+                }
+            }
+            else
+            {
+                string subs = "";
+                foreach (TagBean tag in Subtags)
+                {
+                    subs += "\n" + tag.GenXml(thisidt);
+                }
+                subs = subs.Trim('\n');
+                return idt + head + "\n" + subs + "\n" + idt + "</" + Name + ">";
+            }
+        }
+        
+        public int GetCount(){
+        	int c = 1;
+        	foreach (TagBean tag in Subtags)
+            {
+        		c += tag.GetCount();
+            }
+        	foreach (TagBean attr in Attributes)
+            {
+        		c += attr.GetCount();
+            }
+        	return c;
+        }
+    }
+    public class TagType
+    {
+        public const int TAG = 1;
+        public const int ATTRIBUTE = 2;
+        public const int ROOT = 9;
+    }
 }

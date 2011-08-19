@@ -1,8 +1,8 @@
 /*
  * @(#)util.js
- * Copyright (c) 2009-2010 大连远东计算机系统有限公司
+ * Copyright (c) 2009-2010 YDS
  * All rights reserved.
- *      Project: 远东公司内部网
+ *      Project: YDSWEB
  *    SubSystem: 权限管理
  */
 /**
